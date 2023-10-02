@@ -160,6 +160,7 @@ body {
   }
 
   .menu__box {
+    display:block;
     position: fixed;
 
     top: 0;
