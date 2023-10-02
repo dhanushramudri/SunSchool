@@ -4,7 +4,9 @@ body {
   padding: 0;
   margin: 0;
 }
-
+.menu__box{
+  display:none;
+}
 .nav {
   display: block;
   font: 13px Helvetica, Tahoma, serif;
