@@ -1183,13 +1183,16 @@ section#connectwithus {
   .footer ul li {
     display: inline-block;
     padding: 0 15px;
+    font-size: 14px;
+      font-weight: 600;
+
   }
   .footer ul li :hover {
     opacity: 1;
-    font-weight: 600;
+    
   }
   .footer .copyright {
-    margin-top: 15px;
+    margin-top: 16px;
     text-align: center;
     font-size: 13px;
     color: brown;
