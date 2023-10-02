@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mandatory.css" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" / >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat:wght@300;400&family=Roboto+Mono:wght@300&family=Signika+Negative:wght@300&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- //navbar code// -->
+    <div class="home-logo">
+      <img src="/images/Home-images/logo.png" alt="logo" />
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="../index.html"> Home </a>
+      </li>
+      <li class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          About <span>▼</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/About-page/About1/about1.html"> The Sun School </a>
+          </li>
+          <li>
+            <a href="/About-page/About2/about2.html"> Vision & Mission </a>
+          </li>
+          <li>
+            <a href="/About-page/About3/about3.html"> Our Legacy </a>
+          </li>
+        </ul>
+      </li>
+      <li class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          ACADEMICS<span>▼</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/Academics-page/Curriculum/curriculum.html">
+              Curriculam
+            </a>
+          </li>
+          <li>
+            <a href="/Academics-page/Faculty/faculty.html"> Faculty </a>
+          </li>
+          <li>
+            <a href="/Academics-page/Transfer-page/Transfer.html">
+              Transfer Certificates
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          FACILITIES <span>▼</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/Facilities-page/Sports/sports.html"> Sports & Games </a>
+          </li>
+          <li>
+            <a href="/Facilities-page/Amphitheatre-page/Amphitheatre.html">
+              Amphitheatre
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/Mandatory-page/mandatory.html"> MANDATORY DISCLOSURE </a>
+      </li>
+      <li>
+        <a href="/Contactus-page/contactus.html"> CONTACT US </a>
+      </li>
+    </ul>
+
+     <!-- //menu bar(hamburger) code// -->
+     <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="../index.html">Home</a></li>
+        <li><a class="menu__item " id="aboutPage" href="#">About</a></li>
+<ul id="AboutChilds">
+        <li><a class="menu__item  " id="childColor" href="/About-page/About1/about1.html">The Sun School</a></li>
+        <li><a class="menu__item " id="childColor" href="/About-page/About2/about2.html">Vision & Vision</a></li>
+        <li><a class="menu__item "id="childColor"  href="/About-page/About3/about3.html">Our Legacy</a></li>
+</ul>
+        <li><a class="menu__item "  id="academicsPage" href="#">Academics</a></li>
+      <ul id="AcademicsChilds"> <li><a class="menu__item "id="childColor" href="/Academics-page/Curriculum/curriculum.html">Curriculam</a></li>
+        <li><a class="menu__item " id="childColor" href="/Academics-page/Faculty/faculty.html">Faculty</a></li>
+        <li><a class="menu__item "id="childColor" href="/Academics-page/Transfer-page/Transfer.html">Transfer Certificates</a></li></ul>
+        <li><a class="menu__item " id="facilitiesPage" href="#">Facilities</a></li>
+     <ul id="FacilitiesChilds">   <li><a class="menu__item "id="childColor"  href="/Facilities-page/Sports/sports.html">Sports & Games</a></li>
+        <li><a class="menu__item " id="childColor" href="/Facilities-page/Amphitheatre-page/Amphitheatre.html">Amphitheatre</a></li>
+
+       </ul>
+        <li><a class="menu__item" href="/Mandatory-page/mandatory.html">Mandatory Disclosure</a></li>
+        <li><a class="menu__item" href="/Contactus-page/contactus.html">Contact us</a></li>
+         <a href="/Contactus-page/contactus.html"><div class="frame"><button class="custom-btn btn-11">Apply Now<div class="dot"></div></button></a>
+      </div></ul>
+    </div>
+   <!-- Menu Hamburger ends -->
+      
+    <!-- TABLE -->
+    <div id="mandatory-container1">
+      <table>
+        <caption class="caption">
+          𝑮𝒆𝒏𝒆𝒓𝒂𝒍 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏
+        </caption>
+        <thead>
+          <tr class="TR">
+            <th scope="col">Information</th>
+            <th scope="col">Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label=" NAME">NAME OF THE SCHOOL</td>
+            <td data-label=":">THE SUN SCHOOL</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="AFFILIATION">
+              AFFILIATION NO.(IF APPLICABLE)
+            </td>
+
+            <td data-label="year:">130269</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="SCHOOL CODE">
+              SCHOOL CODE(IF APPLICABLE) Board
+            </td>
+
+            <td data-label="CBSE:">57110</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="ADDRESS">
+              COMPLETE ADDRESS WITH PIN CODE
+            </td>
+
+            <td data-label=":">
+              THE SUN SCHOOL, 100 FT.RING ROAD, VIZIANAGARAM
+            </td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="PRINCIPAL">
+              P. SREENIVASA RAO, M.Sc, B.Ed
+            </td>
+
+            <td data-label="NAME:">80922-221535, ,</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="email">Email ID:</td>
+
+            <td data-label="support:">support@thesunschool.com</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="SCHOOL">SCHOOL EMAIL ID</td>
+
+            <td data-label="MAIL:">57110@cbseshiksha.in</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="CONTACT">CONTACT DETAILS</td>
+
+            <td data-label="DETAILS:">08922221535 / 9553955145</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="caption2">𝑫𝒐𝒄𝒖𝒎𝒆𝒏𝒕𝒔 & 𝑭𝒊𝒍𝒆𝒔</div>
+    <div class="pdf-box">
+      <div class="name">Cbse Affiliation Copy (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Land Certificate 2023-24 (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Safe Drinking Water Report (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Sanitary Certificate 2023 (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Stability Soundness Certificate (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">STATE NOC_DEO-THE SUN SCHOOL (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">NOC of State Govt. (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Society Certificate & Bye Laws (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Sate Recog Copy 1 to 10th (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Fire NOC (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <!-- Results & Academics -->
+    <div class="caption2">𝑹𝒆𝒔𝒖𝒍𝒕𝒔 & 𝑨𝒄𝒂𝒅𝒆𝒎𝒊𝒄𝒔</div>
+    <div class="pdf-box">
+      <div class="name">Fee Structure 2023-24 (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">PTA 2023-24 (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">SMC Members 2023-24 (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Last Three years 10th Board result (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <div class="pdf-box">
+      <div class="name">Annual Academic Calender 2023-24 (pdf)</div>
+      <div class="pdf">
+        <a href="your-pdf-file.pdf" download="filename.pdf"
+          ><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+          <svg
+            width="30"
+            height="
+            25"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#a52a2a"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M12 7L12 14M12 14L15 11M12 14L9 11"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M16 17H12H8"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <path
+                opacity="0.5"
+                d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"
+                stroke="#a52a2a"
+                stroke-width="1.5"
+              ></path>
+            </g>
+          </svg>
+          <div class="marginTop">Download PDF</div>
+        </a>
+      </div>
+    </div>
+    <!-- Staff -->
+    <div class="caption2">𝑺𝒕𝒂𝒇𝒇</div>
+    <div id="mandatory-container1">
+      <table>
+        <thead>
+          <tr class="TR">
+            <th scope="col">Information</th>
+            <th scope="col">Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label=" NAME">PRINCIPAL</td>
+            <td data-label=":">P.SREENIVASA RAO</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="TEACHERS">TOTAL NO.OF TEACHERS</td>
+
+            <td data-label="NO:">46</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="PGT">PGT</td>
+
+            <td data-label="NO:">01</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="TGT">TGT</td>
+
+            <td data-label="NO:">35</td>
+          </tr>
+
+          <tr>
+            <td scope="row" data-label="RATIO">PRT</td>
+
+            <td data-label="NO:">10</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="TEACHER/SECTION">
+              TEACHER SECTION RATIO
+            </td>
+
+            <td data-label="NAME:">1 : 1.5</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="EDUCATOR">
+              DETAILS OF SPECIAL EDUCATOR
+            </td>
+
+            <td data-label="MAIL:">Mrs G. Pushyami</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="DETAILS">
+              COUNSELLOR AND WELLNESS TEACHER
+            </td>
+
+            <td data-label="NAME:">Mr N.Vijay Kumar</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="caption2">𝑺𝒄𝒉𝒐𝒐𝒍 𝑰𝒏𝒇𝒓𝒂𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆</div>
+    <div id="mandatory-container1">
+      <table>
+        <thead>
+          <tr class="TR">
+            <th scope="col">Information</th>
+            <th scope="col">Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label=" NAME">
+              TOTAL CAMPUS AREA OF THE SCHOOL IN SQ.MTS
+            </td>
+            <td data-label=":">8417.5 Sqm</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="TEACHERS">
+              NO AND SIZE OF THE CLASSROOMS IN SQ.MTS
+            </td>
+
+            <td data-label="NO:">37 & 17908 Sq.m</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="PGT">
+              NO. AND SIZE OF LABORATORIES INCLUDING COMPUTER LABS IN SQ.MTS
+            </td>
+
+            <td data-label="NO:">2541 Sq.m</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="TGT">INTERNET FACILITY (Y/N)</td>
+
+            <td data-label="NO:">Yes</td>
+          </tr>
+
+          <tr>
+            <td scope="row" data-label="RATIO">NO. OF GIRLS TOILETS</td>
+
+            <td data-label="NO:">04</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="TEACHER/SECTION">
+              NO. OF BOYS TOILETS
+            </td>
+
+            <td data-label="NAME:">03</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="EDUCATOR">NO. OF CWSN TOILETS</td>
+
+            <td data-label="MAIL:">02</td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="DETAILS">
+              LINK OF YOU TUBE VIDEO OF THE INSPECTION OF THE SCHOOL COVERING ,
+              INFRASTRUCTURE OF THE SCHOOL
+            </td>
+
+            <td data-label="NAME:">
+              School Video<a
+                style="--clr: #dd5f46"
+                class="button"
+                href="#infrastructure-video"
+              >
+                <span class="button__icon-wrapper">
+                  <svg
+                    width="10"
+                    class="button__icon-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 15"
+                  >
+                    <path
+                      fill="#ec6f35"
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                    ></path>
+                  </svg>
+
+                  <svg
+                    class="button__icon-svg button__icon-svg--copy"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    fill="none"
+                    viewBox="0 0 14 15"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                    ></path>
+                  </svg>
+                </span>
+                Click Here!
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="infrastructure-video">
+      <div class="caption2">𝑺𝒄𝒉𝒐𝒐𝒍 𝑰𝒏𝒇𝒓𝒂𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆</div>
+      <iframe
+        width="80%"
+        height="400px"
+        src="https://www.youtube.com/embed/6MCSwVgIfs4"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+     <!-- footer -->
+     <section class="footer">
+      <div class="social">
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+  <ul class="list">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="/About-page/About1/about1.html">About</a></li>
+    <li><a href="/Academics-page/Curriculum/curriculum.html">Academics</a></li>
+    <li><a href="/Facilities-page/Amphitheatre-page/Amphitheatre.html">Facilities</a></li>
+    <li><a href="/Mandatory-page/mandatory.html">Mandatory Disclosure</a></li>
+    <li><a href="/Contactus-page/contactus.html">Contact Us</a></li>
+  
+  
+  </ul>
+  <p class="copyright">Dhanush Ramudri@2023</p>
+     </section>
+  <!-- Footer   -->
+    <script src="/Mandatory-page/mandatory.js"></script>
+  </body>
+</html>

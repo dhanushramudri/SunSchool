@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="icon"
+      href="data:image/png;base64,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"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Montserrat:wght@300;400&family=Roboto+Mono:wght@300&family=Signika+Negative:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">  
+</head>
+  <body>
+
+    <!-- //navbar code// -->
+    <div class="home-logo">
+      <img src="/images/Home-images/logo.png" alt="logo" />
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="index.html"> Home </a>
+      </li>
+      <li class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          About <span>▼</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/About-page/About1/about1.html"> The Sun School </a>
+          </li>
+          <li>
+            <a href="/About-page/About2/about2.html"> Vision & Mission </a>
+          </li>
+          <li>
+            <a href="/About-page/About3/about3.html"> Our Legacy </a>
+          </li>
+        </ul>
+      </li>
+      <li class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          ACADEMICS<span>▼</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/Academics-page/Curriculum/curriculum.html"> Curriculam </a>
+          </li>
+          <li>
+            <a href="/Academics-page/Faculty/faculty.html"> Faculty </a>
+          </li>
+          <li>
+            <a href="/Academics-page/Transfer-page/Transfer.html"> Transfer Certificates </a>
+          </li>
+        </ul>
+      </li>
+      <li class="button-dropdown">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          FACILITIES <span>▼</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="/Facilities-page/Sports/sports.html"> Sports & Games </a>
+          </li>
+          <li>
+            <a href="/Facilities-page/Amphitheatre-page/Amphitheatre.html"> Amphitheatre </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/Mandatory-page/mandatory.html"> MANDATORY DISCLOSURE </a>
+      </li>
+      <li>
+        <a href="/Contactus-page/contactus.html"> CONTACT US </a>
+      </li>
+    </ul>
+
+    <!-- //menu bar(hamburger) code// -->
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Home</a></li>
+        <li><a class="menu__item " id="aboutPage" href="#">About</a></li>
+<ul id="AboutChilds">
+        <li><a class="menu__item  " id="childColor" href="/About-page/About1/about1.html">The Sun School</a></li>
+        <li><a class="menu__item " id="childColor" href="/About-page/About2/about2.html">Vision & Vision</a></li>
+        <li><a class="menu__item "id="childColor"  href="/About-page/About3/about3.html">Our Legacy</a></li>
+</ul>
+        <li><a class="menu__item "  id="academicsPage" href="#">Academics</a></li>
+      <ul id="AcademicsChilds"> <li><a class="menu__item "id="childColor" href="/Academics-page/Curriculum/curriculum.html">Curriculam</a></li>
+        <li><a class="menu__item " id="childColor" href="/Academics-page/Faculty/faculty.html">Faculty</a></li>
+        <li><a class="menu__item "id="childColor" href="/Academics-page/Transfer-page/Transfer.html">Transfer Certificates</a></li></ul>
+        <li><a class="menu__item " id="facilitiesPage" href="#">Facilities</a></li>
+     <ul id="FacilitiesChilds">   <li><a class="menu__item "id="childColor"  href="/Facilities-page/Sports/sports.html">Sports & Games</a></li>
+        <li><a class="menu__item " id="childColor" href="/Facilities-page/Amphitheatre-page/Amphitheatre.html">Amphitheatre</a></li>
+
+       </ul>
+        <li><a class="menu__item" href="/Mandatory-page/mandatory.html">Mandatory Disclosure</a></li>
+        <li><a class="menu__item" href="/Contactus-page/contactus.html">Contact us</a></li>
+         <a href="/Contactus-page/contactus.html"><div class="frame"><button class="custom-btn btn-11">Apply Now<div class="dot"></div></button></a>
+      </div></ul>
+    </div>
+   <!-- Menu Hamburger ends -->
+    <!-- image -->
+    <!-- <div class="homecontainer1">
+    <div class="hc1-img1">
+      <img src="images/home_img1.webp" alt="">
+    </div>
+  </div> -->
+    <div class="home-container">
+      <div class="home-subconatiner1">
+        <img src="/images/Home-images/home_img1.webp" alt="" />
+      </div>
+      <div class="home-subconatiner2">
+        <h4>WELCOME</h4>
+        <h1>Stay Curious</h1>
+        <p>Join a community of learners!</p>
+      </div>
+    </div>
+
+    <div id="parallax-world-of-ugg">
+      <section>
+        <div class="title">
+          <h3>Where education lives</h3>
+          <h1>A CBSE School</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="parallax-one">
+          <!-- <h2>SOUTHERN CALIFORNIA</h2> -->
+        </div>
+      </section>    
+      <section>
+        <div class="block">
+          <p>
+            <span class="first-character sc">THE</span> 𝘚𝘶𝘯 𝘚𝘤𝘩𝘰𝘰𝘭 𝘝𝘪𝘻𝘪𝘢𝘯𝘢𝘨𝘢𝘳𝘢𝘮
+            𝘪𝘴 𝘰𝘯𝘦 𝘰𝘧 𝘉𝘦𝘴𝘵 𝘊𝘉𝘚𝘌 𝘚𝘤𝘩𝘰𝘰𝘭𝘴 𝘪𝘯 𝘝𝘪𝘻𝘪𝘢𝘯𝘢𝘨𝘢𝘳𝘢𝘮 𝘵𝘩𝘦𝘳𝘦𝘧𝘰𝘳𝘦 𝘪𝘵 𝘤𝘰𝘮𝘦𝘴 𝘸𝘪𝘵𝘩
+            𝘢 𝘴𝘺𝘴𝘵𝘦𝘮𝘢𝘵𝘪𝘤, 𝘴𝘪𝘮𝘱𝘭𝘦 𝘳𝘦𝘨𝘪𝘴𝘵𝘳𝘢𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘢𝘥𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘱𝘳𝘰𝘤𝘦𝘴𝘴. 𝘐𝘵 𝘢𝘭𝘴𝘰
+            𝘢𝘤𝘤𝘦𝘱𝘵𝘴 𝘰𝘯𝘭𝘪𝘯𝘦 𝘱𝘢𝘺𝘮𝘦𝘯𝘵𝘴 𝘢𝘯𝘥 𝘢𝘯 𝘰𝘯𝘭𝘪𝘯𝘦 𝘢𝘥𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘦𝘯𝘲𝘶𝘪𝘳𝘺. 𝘔𝘰𝘳𝘦𝘰𝘷𝘦𝘳,
+            𝘧𝘰𝘳 𝘦𝘯𝘲𝘶𝘪𝘳𝘺 𝘰𝘯 𝘮𝘰𝘳𝘦 𝘱𝘳𝘰𝘤𝘦𝘥𝘶𝘳𝘦 𝘤𝘰𝘯𝘵𝘢𝘤𝘵 𝘴𝘤𝘩𝘰𝘰𝘭 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘛𝘩𝘦 𝘚𝘶𝘯 𝘚𝘤𝘩𝘰𝘰𝘭
+            𝘝𝘪𝘻𝘪𝘢𝘯𝘢𝘨𝘢𝘳𝘢𝘮 𝘖𝘯𝘭𝘪𝘯𝘦 𝘈𝘥𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘍𝘰𝘳𝘮.
+          </p>
+          <p class="line-break margin-top-10"></p>
+          <p class="margin-top-10">
+            <table>
+              <caption>Details</caption>
+              <thead>
+                <tr>
+                  <th scope="col">The Sun School Vizianagaram</th>
+                  <th scope="col">Contact Information:</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label=" Affiliation">CBSE Affiliation No:</td>
+                  <td data-label="NO:">130268</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Establishment">Year of Establishment</td>
+                 
+                  <td data-label="year:">1999</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Board">Affiliation Board</td>
+                  
+                  <td data-label="CBSE:">CBSE(central Board of Secondary Education)</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Type">Type of School:</td>
+                 
+                  <td data-label="Education:">Co-Educational</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Phone">Phone Number:</td>
+                 
+                  <td data-label="NO:">80922-221535, ,</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="email">Email ID:</td>
+                 
+                  <td data-label="support:">support@thesunschool.com</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="website">Official Website</td>
+                 
+                  <td data-label="link:">http://thesunschool.com</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Address">Address:</td>
+                 
+                  <td data-label="Location:">Town Center, 100 Feet Ring Road, Lay Ouy, Shirdi Sai Nagar,
+                    Vizianagaram, 535002</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="State">state</td>
+                 
+                  <td data-label="AP:">Andhra Pradesh</td>
+                </tr>
+                <tr>
+                  <td scope="row" data-label="Medium">Medium of Language</td>
+                 
+                  <td data-label="english:">English</td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="parallax-two">
+          <h2>ＣＡＭＰＵＳ</h2>
+        </div>
+      </section>
+
+      <section>
+        <div class="block">
+          <section id="connectwithus" class="dataNav" data-heading="Connect With Us">
+            <div class="card_with_border ">
+
+              <h1 style="color: #b04493;font-weight: 500;">𝓒𝓸𝓷𝓷𝓮𝓬𝓽 𝓦𝓲𝓽𝓱 𝓤𝓼</h1>
+              <div class="row"><div class="col-md-8">
+                <div class="d-flex align-items-top contact_content">
+                  <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"></path>
+                  </svg>
+
+                  </span>
+                  <p class="m-0">
+                    "𝟻-𝟸𝟺𝟽, 𝚃𝚘𝚠𝚗 𝙲𝚎𝚗𝚝𝚛𝚎 𝙻𝚊𝚢𝚘𝚞𝚝, 𝟷𝟶𝟶 𝙵𝚎𝚎𝚝 𝚁𝚒𝚗𝚐 𝚁𝚘𝚊𝚍, 𝚅𝚒𝚣𝚒𝚊𝚗𝚊𝚐𝚊𝚛𝚊𝚖, 𝙰𝚗𝚍𝚑𝚛𝚊 𝙿𝚛𝚊𝚍𝚎𝚜𝚑–𝟻𝟹𝟻𝟶𝟶𝟸"                  </p>
+
+              </div>
+              <div class="d-flex align-items-top contact_content">
+<span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"></path>
+
+</svg>
+
+</span><p class="m-0" >
+  <a>𝖢𝗅𝗂𝖼𝗄 𝗁𝖾𝗋𝖾</a> "𝚏𝚘𝚛 𝚂𝚌𝚑𝚘𝚘𝚕 𝚆𝚎𝚋𝚜𝚒𝚝𝚎"
+</p>
+</div>
+              <ul class="social-container contact_content">
+                <li>
+                  <a href="https://www.youtube.com/channel/UCK1Rv8QK8ayG9JWtfLnMZYQ">
+                    <img width="28" height="28" src="https://cnextassets.careers360.com/frontend-school/_react_school/assets/youtube_icon.svg" alt="youtube">
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="location_img col-md-4"><a href="https://www.google.com/maps/place/The+Sun+School/@18.1022556,83.4138982,17z/data=!3m1!4b1!4m6!3m5!1s0x3a3be535f85dd84f:0x434be964c42865d4!8m2!3d18.1022556!4d83.4164731!16s%2Fg%2F1tgj77p_?hl=en&entry=ttu"><img width="300" height="400" src="https://cache.careers360.mobi/media/schools/staticmap/2022/9/22/420.png" alt></a>
+              </div>
+              </div>
+              </div>
+        
+          </section>
+          <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/il_t1WVLNxk/AS_dAPN1Dlk?playlist=AtXMULV1Jtw&t=21s"
+                frameborder="0"
+                allowfullscreen
+            ></iframe>
+        </div>
+        
+    </iframe> 
+          <p class="line-break1 margin-top-10" style="color: brown;">𝓣𝓱𝓮 𝓢𝓾𝓷 𝓢𝓬𝓱𝓸𝓸𝓵 𝓜𝓪𝓹</p>
+          <p class="margin-top-10">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3792.3426858571165!2d83.41469501488655!3d18.101959487654103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be535f85dd84f%3A0x434be964c42865d4!2sThe%20Sun%20School!5e0!3m2!1sen!2sin!4v1620065469345!5m2!1sen!2sin
+            " loading="lazy" style="border: 0;" width="900" height="250"></iframe>
+           
+          </p>
+        </div>
+      </section>
+    </div>
+     
+   <!-- footer -->
+   <section class="footer">
+    <div class="social">
+      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href=""><i class="fab fa-facebook"></i></a>
+      <a href=""><i class="fab fa-twitter"></i></a>
+    </div>
+<ul class="list">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="/About-page/About1/about1.html">About</a></li>
+  <li><a href="/Academics-page/Curriculum/curriculum.html">Academics</a></li>
+  <li><a href="/Facilities-page/Amphitheatre-page/Amphitheatre.html">Facilities</a></li>
+  <li><a href="/Mandatory-page/mandatory.html">Mandatory Disclosure</a></li>
+  <li><a href="/Contactus-page/contactus.html">Contact Us</a></li>
+
+
+</ul>
+<p class="copyright">Dhanush Ramudri@2023</p>
+   </section>
+  
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <script src="/Home-page/home.js"></script>
+  </body>
+</html>
