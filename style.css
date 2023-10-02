@@ -661,7 +661,7 @@ p {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(/images/Home-images/home_slider1.jpg);
+  background-image: url(./images/Home-images/home_slider1.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -676,7 +676,7 @@ p {
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(/images/Home-images/home_address_img.jpg);
+  background-image: url(./images/Home-images/home_address_img.jpg);
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
