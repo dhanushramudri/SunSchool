@@ -1,4 +1,5 @@
 // MNNU STARTS
+alert("hello");
 // Get references to the elements
 const aboutPage = document.getElementById("aboutPage");
 const aboutChilds = document.getElementById("AboutChilds");
